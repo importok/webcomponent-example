@@ -1,0 +1,17 @@
+{
+  "name": "@importok/importok-webcomponent-example",
+  "version": "1.0.0",
+  "description": "ImportOK Example Project with Web Components",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@importok/javascript": "^0.8"
+  },
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
