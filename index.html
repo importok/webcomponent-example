@@ -12,7 +12,9 @@
   </div>
   <script type="module">
     import ImportOK from './node_modules/@importok/javascript/importok.js';
-    ImportOK.defineCustomElements();
+    ImportOK.defineCustomElements({
+      exposeAsWrapper: false,
+    });
 
     const wizard = document.querySelector('importok-wizard');
     wizard.config = {
